@@ -1,0 +1,60 @@
+
+Epoch: 1
+100%|██████████| 59/59 [00:09<00:00,  6.20it/s]
+
+Train set: Average loss: 0.5846, Accuracy: 70.01%
+Validation set: Loss: 0.5185, Accuracy: 73.63%, Precision fire: 0.7049, Recall fire: 0.5513, F1 fire: 0.6187
+
+Epoch: 2
+100%|██████████| 59/59 [00:07<00:00,  7.62it/s]
+
+Train set: Average loss: 0.5172, Accuracy: 73.29%
+Validation set: Loss: 0.5053, Accuracy: 75.62%, Precision fire: 0.7266, Recall fire: 0.5962, F1 fire: 0.6549
+
+Epoch: 3
+100%|██████████| 59/59 [00:08<00:00,  7.18it/s]
+
+Train set: Average loss: 0.4759, Accuracy: 76.10%
+Validation set: Loss: 0.4799, Accuracy: 75.37%, Precision fire: 0.7143, Recall fire: 0.6090, F1 fire: 0.6574
+
+Epoch: 4
+100%|██████████| 59/59 [00:09<00:00,  6.15it/s]
+
+Train set: Average loss: 0.4183, Accuracy: 81.35%
+Validation set: Loss: 0.4789, Accuracy: 75.37%, Precision fire: 0.6647, Recall fire: 0.7372, F1 fire: 0.6991
+
+Epoch: 5
+100%|██████████| 59/59 [00:08<00:00,  6.74it/s]
+
+Train set: Average loss: 0.3697, Accuracy: 84.53%
+Validation set: Loss: 0.4753, Accuracy: 78.86%, Precision fire: 0.6919, Recall fire: 0.8205, F1 fire: 0.7507
+
+Epoch: 6
+100%|██████████| 59/59 [00:07<00:00,  7.64it/s]
+
+Train set: Average loss: 0.2989, Accuracy: 87.02%
+Validation set: Loss: 0.4430, Accuracy: 79.85%, Precision fire: 0.7737, Recall fire: 0.6795, F1 fire: 0.7235
+
+Epoch: 7
+100%|██████████| 59/59 [00:09<00:00,  6.27it/s]
+
+Train set: Average loss: 0.2505, Accuracy: 90.73%
+Validation set: Loss: 0.4892, Accuracy: 77.11%, Precision fire: 0.7133, Recall fire: 0.6859, F1 fire: 0.6993
+
+Epoch: 8
+100%|██████████| 59/59 [00:09<00:00,  6.55it/s]
+
+Train set: Average loss: 0.1905, Accuracy: 92.58%
+Validation set: Loss: 0.5022, Accuracy: 76.37%, Precision fire: 0.7103, Recall fire: 0.6603, F1 fire: 0.6844
+
+Epoch: 9
+100%|██████████| 59/59 [00:07<00:00,  7.51it/s]
+
+Train set: Average loss: 0.1536, Accuracy: 94.44%
+Validation set: Loss: 0.5266, Accuracy: 79.60%, Precision fire: 0.7761, Recall fire: 0.6667, F1 fire: 0.7172
+
+Epoch: 10
+100%|██████████| 59/59 [00:09<00:00,  6.52it/s]
+
+Train set: Average loss: 0.1109, Accuracy: 96.61%
+Validation set: Loss: 0.5330, Accuracy: 77.61%, Precision fire: 0.7012, Recall fire: 0.7372, F1 fire: 0.7188
