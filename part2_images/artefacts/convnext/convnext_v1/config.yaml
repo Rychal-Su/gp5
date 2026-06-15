@@ -1,0 +1,111 @@
+_wandb:
+    value:
+        cli_version: 0.27.2
+        e:
+            l7s4synodhn5jtpwq0znkdpdn2nq5juo:
+                codePath: wildfire_image_classification.ipynb
+                colab: https://colab.research.google.com/notebook#fileId=12iKsHyfBxLsiMx2uxtECkFOW0MkeoQIc
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "50860085248"
+                email: dmshukakidze@mail.ru
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-9ceff8c8-fca0-b3d0-abfa-2c2835dcb4db
+                host: be8b7160d56c
+                memory:
+                    total: "13605830656"
+                os: Linux-6.6.122+-x86_64-with-glibc2.35
+                program: wildfire_image_classification.ipynb
+                python: CPython 3.12.13
+                root: /content
+                startedAt: "2026-06-15T18:28:57.542329Z"
+                writerId: l7s4synodhn5jtpwq0znkdpdn2nq5juo
+        m: []
+        python_version: 3.12.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 53
+            "3":
+                - 1
+                - 2
+                - 13
+                - 16
+                - 62
+            "4": 3.12.13
+            "5": 0.27.2
+            "8":
+                - 1
+                - 12
+            "10":
+                - 20
+            "12": 0.27.2
+            "13": linux-x86_64
+architecture:
+    value: ConvNeXt
+backbone_frozen:
+    value: true
+classes:
+    value:
+        - fire
+        - nofire
+dropout:
+    value: 0.3
+entity:
+    value: dmshukakidze-hse-university
+image_size:
+    value: 224
+lr:
+    value: 0.001
+min_lr:
+    value: 1e-06
+model:
+    value: ConvNeXt-Small
+num_classes:
+    value: 2
+num_epochs:
+    value: 5
+num_workers:
+    value: 0
+pretrained_weights:
+    value: ImageNet1K_V1
+project:
+    value: wildfire_image_classification
+scheduler_factor:
+    value: 0.5
+scheduler_patience:
+    value: 3
+seed:
+    value: 42
+selection_metric:
+    value: val_f1_fire
+test_batch_size:
+    value: 32
+train_batch_size:
+    value: 32
+training_stage:
+    value: frozen_backbone
+val_batch_size:
+    value: 32
+wandb:
+    value: true
+weight_decay:
+    value: 0.0001
