@@ -225,3 +225,9 @@ F1 score - 0,9397
 Для image-задачи сохранялись конфигурации запусков, метрики по эпохам, лучшие итоговые метрики и веса лучших моделей. Локальная копия image-артефактов находится в:
 
 - `part2_images/artefacts/`
+
+### Wandb проекты
+
+Wandb проект с логами и артефактами по 1 части - https://wandb.ai/creativedak567-hse-university/gp5-wildfire-frp?nw=nwusercreativedak567
+
+Wandb проект с логами и артефактами по 2 части - https://wandb.ai/dmshukakidze-hse-university/wildfire_image_classification?nw=nwuserdmshukakidze
