@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "test_size": 0.15,
+  "validation_size_from_train_val": 0.1765,
+  "stratification": "pd.qcut(frp_log, q=10, duplicates=drop)",
+  "target": "frp",
+  "target_log": "frp_log",
+  "target_transform": "log1p(frp)",
+  "train_shape": [
+    83197,
+    20
+  ],
+  "validation_shape": [
+    17832,
+    20
+  ],
+  "test_shape": [
+    17829,
+    20
+  ]
+}

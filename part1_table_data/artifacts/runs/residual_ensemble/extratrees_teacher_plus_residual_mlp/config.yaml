@@ -1,0 +1,32 @@
+model:
+  value: "ExtraTrees teacher + residual MLP"
+teacher:
+  value: "ExtraTreesRegressor"
+residual_model:
+  value: "ResidualCorrectionNet"
+n_estimators:
+  value: 500
+min_samples_leaf:
+  value: 2
+loss:
+  value: "HuberLoss(delta=0.3)"
+lr:
+  value: 0.0007
+weight_decay:
+  value: 0.0001
+target_transform:
+  value: "log1p(frp)"
+seed:
+  value: 42
+MAE:
+  value: 12.461560249328613
+RMSE:
+  value: 30.707896615541436
+R2:
+  value: 0.12104350328445435
+best_epoch:
+  value: 2
+best_val_loss:
+  value: 0.14592525362968445
+alpha:
+  value: -0.5

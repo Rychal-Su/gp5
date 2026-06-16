@@ -1,0 +1,36 @@
+model:
+  value: "MLP BatchNorm"
+hidden_layers:
+  value: [256, 128, 64]
+dropout:
+  value: 0.0
+batch_norm:
+  value: true
+activation:
+  value: "relu"
+lr:
+  value: 0.001
+weight_decay:
+  value: 0.0
+loss:
+  value: "MSELoss"
+target_transform:
+  value: "log1p(frp)"
+epochs:
+  value: 25
+batch_size:
+  value: 256
+seed:
+  value: 42
+MAE:
+  value: 12.722381591796875
+RMSE:
+  value: 31.762963719681647
+R2:
+  value: 0.05960726737976074
+test_loss_log_scale:
+  value: 0.677319327003991
+best_epoch:
+  value: 16
+best_val_loss:
+  value: 0.6715548303748738

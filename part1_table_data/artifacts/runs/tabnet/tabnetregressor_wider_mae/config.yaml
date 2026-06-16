@@ -1,0 +1,40 @@
+model:
+  value: "TabNetRegressor"
+target_transform:
+  value: "log1p(frp)"
+n_d:
+  value: 24
+n_a:
+  value: 24
+n_steps:
+  value: 3
+gamma:
+  value: 1.2
+lambda_sparse:
+  value: 0.0001
+lr:
+  value: 0.005
+max_epochs:
+  value: 80
+patience:
+  value: 10
+batch_size:
+  value: 1024
+virtual_batch_size:
+  value: 128
+eval_metric:
+  value: ["mae", "rmse"]
+seed:
+  value: 42
+MAE:
+  value: 12.729969024658203
+RMSE:
+  value: 32.14254673399223
+R2:
+  value: 0.036996662616729736
+best_epoch:
+  value: 47
+best_valid_score:
+  value: 0.8232767588821791
+saved_model_path:
+  value: "tabular_artifacts\\runs\\tabnet\\tabnetregressor_wider_mae\\tabnetregressor_wider_mae.zip"

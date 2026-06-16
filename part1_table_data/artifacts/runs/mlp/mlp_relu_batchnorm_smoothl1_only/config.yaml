@@ -1,0 +1,36 @@
+model:
+  value: "MLP ReLU BatchNorm SmoothL1 only"
+hidden_layers:
+  value: [256, 128, 64]
+dropout:
+  value: 0.0
+batch_norm:
+  value: true
+activation:
+  value: "relu"
+lr:
+  value: 0.001
+weight_decay:
+  value: 0.0
+loss:
+  value: "SmoothL1Loss"
+target_transform:
+  value: "log1p(frp)"
+epochs:
+  value: 25
+batch_size:
+  value: 256
+seed:
+  value: 42
+MAE:
+  value: 12.678091049194336
+RMSE:
+  value: 31.988101654536138
+R2:
+  value: 0.046228885650634766
+test_loss_log_scale:
+  value: 0.29516744018904834
+best_epoch:
+  value: 20
+best_val_loss:
+  value: 0.292893597434165

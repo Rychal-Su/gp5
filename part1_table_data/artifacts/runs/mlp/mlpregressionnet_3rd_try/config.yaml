@@ -1,0 +1,36 @@
+model:
+  value: "MLPRegressionNet 3rd Try"
+hidden_layers:
+  value: [512, 256]
+dropout:
+  value: 0.0
+batch_norm:
+  value: false
+activation:
+  value: "relu"
+lr:
+  value: 0.001
+weight_decay:
+  value: 0.0
+loss:
+  value: "MSELoss"
+target_transform:
+  value: "log1p(frp)"
+epochs:
+  value: 25
+batch_size:
+  value: 256
+seed:
+  value: 42
+MAE:
+  value: 12.649309158325195
+RMSE:
+  value: 32.037518441518294
+R2:
+  value: 0.04327970743179321
+test_loss_log_scale:
+  value: 0.6717088227184043
+best_epoch:
+  value: 23
+best_val_loss:
+  value: 0.6713352264872363

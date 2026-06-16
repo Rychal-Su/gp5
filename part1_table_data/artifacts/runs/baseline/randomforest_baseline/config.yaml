@@ -1,0 +1,16 @@
+model:
+  value: "RandomForestRegressor"
+n_estimators:
+  value: 100
+max_depth:
+  value: 12
+target_transform:
+  value: "log1p(frp)"
+seed:
+  value: 42
+MAE:
+  value: 12.572274225340118
+RMSE:
+  value: 31.6630882534637
+R2:
+  value: 0.06551188930978535
